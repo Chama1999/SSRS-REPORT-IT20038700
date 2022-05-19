@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>IT20038700_Project2</Database>
+    <Server>LAPTOP-D2G3P6VF\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=LAPTOP-D2G3P6VF\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>l55ax4WN7w8onam7guErDTfI5RE=5/16/2022 10:54:25 AM5/16/2022 10:54:25 AM</TimeStamp>
+        <ID>
+          <String>IT20038700_Proj_Data_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>u1s2ObJgPZgxF9VmUrvUuLHoNMk=5/16/2022 10:55:53 AM5/16/2022 10:55:53 AM</TimeStamp>
+        <ID>
+          <String>IT20038700ProjView</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/PSCjr5xVrbtk2/JqxLoH/HtgSw=5/16/2022 11:30:41 AM5/16/2022 10:57:05 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sxwhCMtxkaIbS1eKihrQpYlFB2U=5/16/2022 11:30:41 AM5/16/2022 10:57:05 AM</TimeStamp>
+        <ID>
+          <String>Dim Sales Consumer Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Kwf5zsocIAiBJqCw6NkVVEoz6Vk=5/16/2022 11:30:41 AM5/16/2022 10:57:05 AM</TimeStamp>
+        <ID>
+          <String>Dim Commodity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/aUUPJ9uI2Lbu+EU9lBZXWuMPck=5/16/2022 11:30:41 AM5/16/2022 10:57:05 AM</TimeStamp>
+        <ID>
+          <String>Dim Consumer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>yEWqirmfaRCGuBBAZqIRfO+Fr98=5/17/2022 7:31:25 AM5/16/2022 10:57:05 AMz1oINRk2ZUJzfQ0CwwELhFyl1Eg=5/16/2022 10:57:05 AM5/16/2022 10:57:05 AM</TimeStamp>
+        <ID>
+          <String>Cube_IT20038700ProjView</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>zbQQjVSrFAEQ2urBmHUMZGHvuhM=5/16/2022 4:22:51 PM5/16/2022 4:21:14 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>ceBGy5P0ad9w34zGlF0AEGFuCjk=5/16/2022 4:22:51 PM5/16/2022 10:48:56 AM</TimeStamp>
+      <ID>
+        <String>IT20038700_Project2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-17T02:01:30.19Z</LastDeployed>
+</DeploymentSnapshot>
